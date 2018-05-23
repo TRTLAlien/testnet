@@ -146,9 +146,9 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";
 
 // You'll need seed nodes put some in here
 const char* const SEED_NODES[] = {
-  "107.189.38.102:10110", // SoreGums
-  "107.189.38.102:10120", // SoreGums
-  "107.189.38.102:10130"  // SoreGums
+  "35.232.27.159:10110", // SoreGums
+  "35.232.27.159:10120", // SoreGums
+  "35.232.27.159:10130"  // SoreGums
 };
 } // CryptoNote
 
