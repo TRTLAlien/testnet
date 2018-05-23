@@ -109,7 +109,8 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 // give your testnet a name, impacts the the data dir name so avoid existing testnets and mainnet
 // mainnet: TurtleCoin
 // vico-7xT: Vico
-const char     CRYPTONOTE_NAME[]                             = "";
+// main-clone: MainClone
+const char     CRYPTONOTE_NAME[]                             = "MainClone";
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
@@ -145,7 +146,9 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";
 
 // You'll need seed nodes put some in here
 const char* const SEED_NODES[] = {
-  //"ip:port", < it's an array so figure out the comma
+  "107.189.38.102:10110", // SoreGums
+  "107.189.38.102:10120", // SoreGums
+  "107.189.38.102:10130"  // SoreGums
 };
 } // CryptoNote
 

@@ -482,6 +482,12 @@ Difficulty Currency::nextDifficulty(std::vector<uint64_t> timestamps,
 
 Difficulty Currency::nextDifficulty(uint8_t version, uint32_t blockIndex, std::vector<uint64_t> timestamps,
   std::vector<Difficulty> cumulativeDifficulties) const {
+/*
+Lower difficulty to static 500 for testnet
+The rest of this function is ignored
+this will be removed once we are sufficently clear of the dynamnic diff window
+*/
+return 500;
 
 std::vector<uint64_t> timestamps_o(timestamps);
 std::vector<uint64_t> cumulativeDifficulties_o(cumulativeDifficulties);
