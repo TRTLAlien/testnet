@@ -7,10 +7,10 @@
 Hash: CryptoNight Lite Variant 1  
 Difficulty: ????  
 
-**Block Explorer:** https://testnet-mainclone.turtlecoin.ws/blocks/  
+**Block Explorer:** https://testnet-mainclone.turtlecoin.ws/blocks/  
 **Pool**: https://testnet-mainclone.turtlecoin.ws/  
 
-**Purpose**  
+**Purpose**    
 Test things that might cause issues on mainnet here, it is a clone of mainnet with a diff of 500.  
 
 It got started because a pool op had a wallet from block 7K and wanted to do a full optimise on it.  
