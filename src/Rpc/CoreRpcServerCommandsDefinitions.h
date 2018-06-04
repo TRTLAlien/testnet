@@ -278,8 +278,10 @@ struct COMMAND_RPC_GET_INFO {
     uint64_t grey_peerlist_size;
     uint32_t last_known_block_index;
     uint32_t network_height;
+    uint64_t upgrade_height;
     uint32_t hashrate;
     std::string version;
+    uint64_t start_time;
     bool synced;
 
     void serialize(ISerializer &s) {
